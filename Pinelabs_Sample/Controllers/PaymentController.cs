@@ -149,10 +149,7 @@ public class PaymentController : Controller
             this._emi ??= new EMI(data.merchantId, data.access_code, data.pg_mode);
             var values = JsonSerializer.Deserialize<List<product_details>>(data.products).ToArray();
             var response = this._emi.CalculateEmi(data.product_amount, values);
-            var formattedResponse = JsonSerializer.Serialize(response, new JsonSerializerOptions
-            {
-                WriteIndented = true
-            });
+            var formattedResponse = JsonSerializer.Serialize(response);
             TempData["data"] = formattedResponse;
             return RedirectToAction("Emi");
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK\\Pinelabs_Sample\\Pinelabs_Sample.csproj": {}
+    "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK - Sample\\Pinelabs_Sample\\Pinelabs_Sample.csproj": {}
   },
   "projects": {
-    "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK\\Pinelabs_Sample\\Pinelabs_Sample.csproj": {
+    "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK - Sample\\Pinelabs_Sample\\Pinelabs_Sample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK\\Pinelabs_Sample\\Pinelabs_Sample.csproj",
+        "projectUniqueName": "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK - Sample\\Pinelabs_Sample\\Pinelabs_Sample.csproj",
         "projectName": "Pinelabs_Sample",
-        "projectPath": "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK\\Pinelabs_Sample\\Pinelabs_Sample.csproj",
+        "projectPath": "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK - Sample\\Pinelabs_Sample\\Pinelabs_Sample.csproj",
         "packagesPath": "C:\\Users\\Aamir Zaidi\\.nuget\\packages\\",
-        "outputPath": "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK\\Pinelabs_Sample\\obj\\",
+        "outputPath": "F:\\Pinelabs\\Plural_Edge\\Dotnet SDK - Sample\\Pinelabs_Sample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aamir Zaidi\\AppData\\Roaming\\NuGet\\NuGet.Config"

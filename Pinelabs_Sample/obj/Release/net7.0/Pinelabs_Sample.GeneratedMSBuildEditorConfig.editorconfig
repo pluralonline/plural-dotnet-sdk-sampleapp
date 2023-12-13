@@ -9,45 +9,45 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pinelabs_Sample
 build_property.RootNamespace = Pinelabs_Sample
-build_property.ProjectDir = F:\Pinelabs\Plural_Edge\Dotnet SDK\Pinelabs_Sample\
+build_property.ProjectDir = F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\Pinelabs\Plural_Edge\Dotnet SDK\Pinelabs_Sample
+build_property.MSBuildProjectDirectory = F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/Payment/Emi.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/Payment/Emi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxFbWkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/Payment/Fetch.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/Payment/Fetch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxGZXRjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/Payment/Hash.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/Payment/Hash.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxIYXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/Payment/Index.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/Payment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/Shared/Error.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/_ViewImports.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/_ViewStart.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Pinelabs/Plural_Edge/Dotnet SDK/Pinelabs_Sample/Views/Shared/_Layout.cshtml]
+[F:/Pinelabs/Plural_Edge/Dotnet SDK - Sample/Pinelabs_Sample/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-30mryj80ot

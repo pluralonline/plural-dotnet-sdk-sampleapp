@@ -100,3 +100,37 @@ F:\Pinelabs\Plural_Edge\Dotnet SDK\Pinelabs_Sample\obj\Debug\net7.0\refint\Pinel
 F:\Pinelabs\Plural_Edge\Dotnet SDK\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.pdb
 F:\Pinelabs\Plural_Edge\Dotnet SDK\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.genruntimeconfig.cache
 F:\Pinelabs\Plural_Edge\Dotnet SDK\Pinelabs_Sample\obj\Debug\net7.0\ref\Pinelabs_Sample.dll
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\appsettings.Development.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\appsettings.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\Pinelabs_Sample.staticwebassets.runtime.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\Pinelabs_Sample.exe
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\Pinelabs_Sample.deps.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\Pinelabs_Sample.runtimeconfig.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\Pinelabs_Sample.dll
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\Pinelabs_Sample.pdb
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\PineLabsSdk.dll
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\bin\Debug\net7.0\PineLabsSdk.pdb
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.csproj.AssemblyReference.cache
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.GeneratedMSBuildEditorConfig.editorconfig
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.AssemblyInfoInputs.cache
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.AssemblyInfo.cs
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.csproj.CoreCompileInputs.cache
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.MvcApplicationPartsAssemblyInfo.cache
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.RazorAssemblyInfo.cache
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.RazorAssemblyInfo.cs
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\staticwebassets\msbuild.Pinelabs_Sample.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\staticwebassets\msbuild.build.Pinelabs_Sample.props
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Pinelabs_Sample.props
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Pinelabs_Sample.props
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\staticwebassets.pack.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\staticwebassets.build.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\staticwebassets.development.json
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\scopedcss\bundle\Pinelabs_Sample.styles.css
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\scopedcss\projectbundle\Pinelabs_Sample.bundle.scp.css
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.csproj.CopyComplete
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.dll
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\refint\Pinelabs_Sample.dll
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.pdb
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\Pinelabs_Sample.genruntimeconfig.cache
+F:\Pinelabs\Plural_Edge\Dotnet SDK - Sample\Pinelabs_Sample\obj\Debug\net7.0\ref\Pinelabs_Sample.dll
