@@ -1,0 +1,72 @@
+@{
+    ViewBag.Title = "Pinelabs - Payment Sample App";
+    Layout = "_Layout";
+}
+
+
+<div class="container">
+    <main>
+        <div class="py-5 text-center">
+            <h2>Fetch Transaction Form</h2>
+            <div class="text-center">
+                <p class="mb-0">Check Fetch and EMI API Response</p>
+                <div class="row justify-content-center mt-2">
+                    <div class="col-auto">
+                        <a href="/payment" class="text-decoration-none">Payment Create</a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/payment/emi" class="text-decoration-none">EMI Plans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-12">
+                <form method="post" action="/payment/fetch/status" class="needs-validation" novalidate>
+                    @Html.AntiForgeryToken()
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="mid" class="form-label">Merchant ID</label>
+                            <input type="text" name="merchantId" class="form-control" id="mid" placeholder="Merchant ID" value="106600" required>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="access_code" class="form-label">Access Code</label>
+                            <input type="text" name="access_code" class="form-control" id="access_code" placeholder="API Access Code" value="bcf441be-411b-46a1-aa88-c6e852a7d68c" required>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="secret" class="form-label">Secret</label>
+                            <input type="text" name="secret" class="form-control" id="secret" placeholder="Secret" value="9A7282D0556544C59AFE8EC92F5C85F6" required>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="mode" class="form-label">Gateway Mode</label>
+                            <select name="pg_mode" id="mode" class="form-control">
+                                <option value="true">Sandbox</option>
+                                <option value="false">Production</option>
+                            </select>
+                        </div>
+
+                        <div class="col-6">
+                            <label for="txn_id" class="form-label">Transaction ID</label>
+                            <input type="text" name="txn_id" class="form-control" id="txn_id" placeholder="Transaction ID" value="505350" required>
+                        </div>
+                    </div>
+                    <button class="w-100 my-4 btn btn-primary btn-lg" type="submit" name="pay_now">Fetch Payment Status</button>
+                </form>
+                <div class="row">
+                    <div class="col-12">
+                        <pre>
+                            <code style="color: orangered;">
+                                @ViewBag.data
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</div>

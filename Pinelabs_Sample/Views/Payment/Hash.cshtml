@@ -1,0 +1,160 @@
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <main>
+        <div class="py-5 text-center">
+            <h2>Hash Verification Form</h2>
+            <div class="text-center">
+                <p class="mb-0">Verify Payment Response</p>
+                <div class="row justify-content-center mt-2">
+                    <div class="col-auto">
+                        <a href="/payment" class="text-decoration-none">Payment Create</a>
+                    </div>
+                    <div class="col-auto">
+                        <a href="/payment/emi" class="text-decoration-none">EMI Plans</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-12">
+                <form method="post" action="/payment/verify" class="needs-validation">
+                    @Html.AntiForgeryToken()
+
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="mid" class="form-label">Merchant ID</label>
+                            <input type="text" name="merchant_id" class="form-control" id="mid" placeholder="Merchant ID" value="106600" required>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="access_code" class="form-label">Access Code</label>
+                            <input type="text" name="access_code" class="form-control" id="access_code" placeholder="API Access Code" value="bcf441be-411b-46a1-aa88-c6e852a7d68c" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="access_code" class="form-label">Hash</label>
+                            <input type="text" name="hash" class="form-control" id="access_code" placeholder="Enter Hash you want to verify" value="D640CFF0FCB8D42B74B1AFD19D97A375DAF174CCBE9555E40CC6236964928896" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="secret" class="form-label">Secret</label>
+                            <input type="text" name="secret" class="form-control" id="secret" placeholder="Secret" value="9A7282D0556544C59AFE8EC92F5C85F6" required>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label for="mode" class="form-label">Gateway Mode</label>
+                            <select name="pg_mode" id="mode" class="form-control">
+                                <option value="true">Sandbox</option>
+                                <option value="false">Production</option>
+                            </select>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <label for="txn_id" class="form-label">Transacrtion ID</label>
+                            <input type="text" name="txn_id" class="form-control" id="txn_id" placeholder="Transacrtion ID" value="650acb67d3752" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="txn_id" class="form-label">Pine Pg Transaction ID</label>
+                            <input type="text" name="ppc_PinePGTransactionID" class="form-control" id="txn_id" placeholder="Enter Pine Pg Txn Id" value="12069839" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_PinePGTxnStatus" class="form-label">Transaction Status</label>
+                            <input type="text" name="ppc_PinePGTxnStatus" class="form-control" id="txn_id" placeholder="Pine Pg txn Status" value="7" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_TransactionCompletionDateTime" class="form-label">Transaction date</label>
+                            <input type="text" name="ppc_TransactionCompletionDateTime" class="form-control" id="txn_id" value="20/09/2023 04:07:52 PM" placeholder="Transaction Completion date" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_Amount" class="form-label">Enter PPC amount</label>
+                            <input type="text" name="ppc_Amount" class="form-control" id="txn_id" value="1000" placeholder="Enter PPC amount" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_TxnResponseCode" class="form-label">Transaction Response Code</label>
+                            <input type="text" name="ppc_TxnResponseCode" class="form-control" id="txn_id" value="1" placeholder="Enter Txn Response Code" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_TxnResponseMessage" class="form-label">Transaction Response Message</label>
+                            <input type="text" name="ppc_TxnResponseMessage" value="SUCCESS" class="form-control" id="txn_id" placeholder="Enter Txn Response Message" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_CapturedAmount" class="form-label">Captured Amount</label>
+                            <input type="text" name="ppc_CapturedAmount" value="1000" class="form-control" id="txn_id" placeholder="Enter captured Amount" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_RefundedAmount" class="form-label">Refunded amount</label>
+                            <input type="text" name="ppc_RefundedAmount" value="0" class="form-control" id="txn_id" placeholder="Enter Refunded amount" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_AcquirerName" class="form-label">Acquirer name</label>
+                            <input type="text" name="ppc_AcquirerName" value="BILLDESK" class="form-control" id="txn_id" placeholder="Enter acquirer name" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_PaymentMode" class="form-label">Payment Mode</label>
+                            <input type="text" name="ppc_PaymentMode" value="3" class="form-control" id="txn_id" placeholder="Enter Payment mode" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_Parent_TxnStatus" class="form-label">Parent Transaction Status</label>
+                            <input type="text" name="ppc_Parent_TxnStatus" value="4" class="form-control" id="txn_id" placeholder="Enter parent txn status" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="txn_id" class="form-label">Parent Transaction Response code</label>
+                            <input type="text" name="ppc_ParentTxnResponseCode" value="1" class="form-control" id="txn_id" placeholder="Enter Parent txn response code" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_ParentTxnResponseMessage" class="form-label">Parent Transaction Response Message</label>
+                            <input type="text" name="ppc_ParentTxnResponseMessage" value="SUCCESS" class="form-control" id="txn_id" placeholder="Enter parent txn response message" required>
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_CustomerMobile" class="form-label">Customer Mobile No</label>
+                            <input type="text" name="ppc_CustomerMobile" class="form-control" id="txn_id" value="7737291210" placeholder="Enter customer mobile no">
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_AcquirerResponseCode" class="form-label">Acquirer Response Code</label>
+                            <input type="text" name="ppc_AcquirerResponseCode" class="form-control" id="txn_id" value="0300" placeholder="Enter Acquirer Response Code">
+                        </div>
+                        <div class="col-sm-3">
+                            <label for="ppc_AcquirerResponseMessage" class="form-label">Acquirer Response Message</label>
+                            <input type="text" name="ppc_AcquirerResponseMessage" class="form-control" value="NA" id="txn_id" placeholder="Enter Acquirer Response Message">
+                        </div>
+                        <a class="text-dark text-decoration-none mt-4 mb-4 d-flex" href="#additional_fields" data-bs-toggle="collapse" role="button">
+                            <i class="fa fa-chevron-down me-2 text-primary"></i>
+                            <h5 class="mb-0">Additional Fields <small>(click to expand)</small></h5>
+                        </a>
+
+                        <div id="additional_fields" class="collapse row">
+
+                            <div class="mb-3 col-md-6">
+                                <label for="udf1">udf 1</label>
+                                <input type="text" class="form-control" id="udf1" placeholder="Enter udf 1" name="ppc_UdfField1">
+                            </div>
+
+                            <div class="mb-3 col-md-6">
+                                <label for="udf2">udf 2</label>
+                                <input type="text" class="form-control" id="udf2" placeholder="Enter udf 2" name="ppc_UdfField2">
+                            </div>
+
+                            <div class="mb-3 col-md-6">
+                                <label for="udf3">udf 3</label>
+                                <input type="text" class="form-control" id="udf3" placeholder="Enter udf 3" name="ppc_UdfField3">
+                            </div>
+
+                            <div class="mb-3 col-md-6">
+                                <label for="udf4">udf 4</label>
+                                <input type="text" class="form-control" id="udf4" placeholder="Enter udf 4" name="ppc_UdfField4">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="w-100 my-4 btn btn-primary btn-lg" type="submit" name="pay_now">Verify Hash</button>
+                </form>
+                <div class="row">
+                    @{ var result = ViewBag.isValid == true ? "green" : "red";}
+                    <div class="col-12" style="color: @result">
+                        @ViewBag.data
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
